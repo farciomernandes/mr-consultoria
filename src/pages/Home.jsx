@@ -9,6 +9,7 @@ import DeliveryReceipt from '../partials/DeliveryReceipt';
 import Newsletter from '../partials/Newsletter';
 import HowItWorks from '../partials/HowItWorks';
 import Footer from '../partials/Footer';
+import Services from '../partials/Sevices';
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function Home() {
         <FeaturesZigZag />
         <HowItWorks />
         <Testimonials />
+        <Services />
         <DeliveryReceipt />
         <Newsletter />
       </main>
