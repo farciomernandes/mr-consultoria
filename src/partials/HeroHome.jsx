@@ -46,13 +46,14 @@ function HeroHome() {
               <ul className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200" style={{ textAlign: "left" }}>
                 <li>- Elaborado por Professores Qualificados</li>
                 <li>- Escrita exclusiva e personalizada</li>
-                <li>- Pagamento parcelado e seguro com Garantia de Aprovação</li>
+                <li>- Pagamento parcelado e seguro.</li>
                 <li>- Correções inclusas</li>
               </ul>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay="400">
                   <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" 
-                  href="https://api.whatsapp.com/send?phone=5511977088170&text=Olá%2C%20vi%20seu%20trabalho%20através%20do%20site%20e%20gostaria%20de%20contratar%20seus%20serviços..." target="_blank">    
+                    href={`https://api.whatsapp.com/send?phone=5588993768255&text=${encodeURIComponent('Olá, preciso de ajuda com trabalhos acadêmicos.')}`}
+                    target="_blank">    
                   
                   
                                   Solicitar orçamento
@@ -60,7 +61,8 @@ function HeroHome() {
                 </div>
                 <div data-aos="fade-up" data-aos-delay="600">
                   <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" 
-                    href="https://api.whatsapp.com/send?phone=5511977088170&text=Olá%2C%20vi%20seu%20trabalho%20através%20do%20site%20e%20gostaria%20de%20mais%informações..." target="_blank">    
+                      href={`https://api.whatsapp.com/send?phone=5588993768255&text=${encodeURIComponent('Olá, preciso de ajuda com trabalhos acadêmicos.')}`}
+                      target="_blank">    
                     Mais informações
                   </a>
                 </div>

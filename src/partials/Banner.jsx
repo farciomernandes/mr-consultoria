@@ -10,7 +10,9 @@ function Banner() {
         <div className="fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-60">
           <div className="bg-slate-800 text-slate-50 text-sm p-3 md:rounded shadow-lg flex justify-between">
             <div className="text-slate-500 inline-flex">
-              <a className="font-medium hover:underline text-emerald-400" href="https://api.whatsapp.com/send?phone=5511977088170" target="_blank" rel="noreferrer">
+              <a className="font-medium hover:underline text-emerald-400" 
+                      href={`https://api.whatsapp.com/send?phone=5588993768255&text=${encodeURIComponent('Olá, preciso de ajuda com trabalhos acadêmicos.')}`}
+                      target="_blank" rel="noreferrer">
                 Clique aqui para entra em contato!
               </a>
             </div>

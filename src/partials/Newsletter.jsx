@@ -18,7 +18,9 @@ function Newsletter() {
               Nossa equipe é composta por especialistas em diversas áreas, permitindo-nos atender a uma ampla gama de necessidades acadêmicas, desde monografias e artigos científicos até projetos de pesquisa e apresentações.
             </p>
             <div className="max-w-xl mx-auto mt-8 sm:mt-12">
-              <a href="/contato" className="btn text-white bg-green-500 hover:bg-green-400">
+              <a 
+               href={`https://api.whatsapp.com/send?phone=5588993768255&text=${encodeURIComponent('Olá, preciso de ajuda com trabalhos acadêmicos.')}`}
+              className="btn text-white bg-green-500 hover:bg-green-400">
                 Entre em Contato
               </a>
             </div>

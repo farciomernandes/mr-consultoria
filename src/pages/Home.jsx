@@ -7,6 +7,7 @@ import FeaturesZigZag from '../partials/FeaturesZigzag';
 import Testimonials from '../partials/Testimonials';
 import DeliveryReceipt from '../partials/DeliveryReceipt';
 import Newsletter from '../partials/Newsletter';
+import HowItWorks from '../partials/HowItWorks';
 import Footer from '../partials/Footer';
 
 function Home() {
@@ -25,6 +26,7 @@ function Home() {
         {/*  Page sections */}
         <HeroHome />
         <FeaturesZigZag />
+        <HowItWorks />
         <Testimonials />
         <DeliveryReceipt />
         <Newsletter />
