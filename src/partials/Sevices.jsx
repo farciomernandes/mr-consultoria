@@ -67,7 +67,7 @@ function Services() {
                 No Prazo
               </div>
               <p className="text-lg text-black text-center font-roboto">
-                Entrega no prazo acordado
+                Sempre entregue no prazo combinado
               </p>
               <div className="flex justify-center items-center mt-4">
                 <FontAwesomeIcon icon={faClock} className="text-purple-600 text-4xl" />

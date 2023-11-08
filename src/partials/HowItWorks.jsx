@@ -40,7 +40,7 @@ function HowItWorks() {
                 Passo 3
               </div>
               <p className="text-lg text-black text-center font-roboto">
-                Você recebe o trabalho completo na data combinada
+                Você recebe o trabalho completo nsem plágio
               </p>
               <div className="flex justify-center items-center mt-4">
                 <FontAwesomeIcon icon={faCalendar} className="text-purple-600 text-4xl" />
