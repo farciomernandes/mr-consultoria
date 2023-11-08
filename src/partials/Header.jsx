@@ -105,19 +105,66 @@ function Header() {
                 <rect y="18" width="24" height="2" rx="1" />
               </svg>
             </button>
-            <nav id="mobile-nav" ref={mobileNav} className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" style={mobileNavOpen ? { maxHeight: mobileNav.current.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: .8 } }>
-              <ul className="bg-gray-800 px-4 py-2">
-                <li>
-                  <a href="#testimonials" className={`font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white ${lastSelectedButton === "Testemunhos" ? "bg-purple-700" : "bg-purple-600"} hover:bg-purple-700 transition duration-150 ease-in-out`} onClick={() => handleButtonClick("Testemunhos")}>
-                    Testemunhos
-                  </a>
-                </li>
-                <li>
-                  <a href="#quemsomos" className={`flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center ${lastSelectedButton === "Quem somos" ? "text-white" : ""}`} onClick={() => handleButtonClick("Quem somos")}>
-                    Quem somos
-                  </a>
-                </li>
-              </ul>
+
+            <nav id="mobile-nav" ref={mobileNav} 
+            className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" 
+            style={mobileNavOpen ? { maxHeight: mobileNav.current.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: .8 } }>
+               <ul className="bg-gray-800 px-4 py-2">
+                  <li>
+                    <a
+                      href="#inicio"
+                      className={`font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out ${lastSelectedButton === "INÍCIO" ? "hover:bg-purple-700" : ""}`}
+                      onClick={() => handleButtonClick("INÍCIO")}
+                    >
+                      INÍCIO
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#como-funciona"
+                      className={`font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out ${lastSelectedButton === "COMO FUNCIONA" ? "hover-bg-purple-700" : ""}`}
+                      onClick={() => handleButtonClick("COMO FUNCIONA")}
+                    >
+                      COMO FUNCIONA
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#servicos"
+                      className={`font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out ${lastSelectedButton === "SERVIÇOS" ? "hover:bg-purple-700" : ""}`}
+                      onClick={() => handleButtonClick("SERVIÇOS")}
+                    >
+                      SERVIÇOS
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#quemsomos"
+                      onClick={() => handleButtonClick("SOBRE NÓS")}
+                      className={`font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150
+                       ease-in-out ${lastSelectedButton === "SOBRE NÓS" ? "hover:bg-purple-700" : ""}`}>
+                      SOBRE NÓS
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#faq"
+                      className={`font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out ${lastSelectedButton === "FAQ" ? "hover:bg-purple-700" : ""}`}
+                      onClick={() => handleButtonClick("FAQ")}
+                    >
+                      COMPROVANTES
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className={`font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out ${lastSelectedButton === "CONTATO" ? "hover:bg-purple-700" : ""}`}
+                      href="https://api.whatsapp.com/send?phone=5588993768255&text=Olá%2C%20vi%20seu%20trabalho%20através%20do%20site%20e%20gostaria%20de%mais%20informações%20dos%20seus%20serviços..."
+                      target="_blank"
+                    >
+                      CONTATO
+                    </a>
+                  </li>
+               </ul>
             </nav>
           </div>
         </div>

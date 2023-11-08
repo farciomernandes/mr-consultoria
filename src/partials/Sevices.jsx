@@ -90,19 +90,6 @@ function Services() {
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 px-4 py-4">
             <div className="bg-white rounded-lg p-6 shadow-lg">
               <div className="text-3xl text-purple-600 mb-4 text-center font-roboto">
-                Bônus
-              </div>
-              <p className="text-lg text-black text-center font-roboto">
-                Ofertas especiais e bônus
-              </p>
-              <div className="flex justify-center items-center mt-4">
-                <FontAwesomeIcon icon={faGift} className="text-purple-600 text-4xl" />
-              </div>
-            </div>
-          </div>
-          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 px-4 py-4">
-            <div className="bg-white rounded-lg p-6 shadow-lg">
-              <div className="text-3xl text-purple-600 mb-4 text-center font-roboto">
                 +300 
               </div>
               <p className="text-md text-black text-center font-roboto">

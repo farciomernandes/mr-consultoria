@@ -19,7 +19,7 @@ function DeliveryReceipt() {
   };
 
   return (
-    <section className="bg-gray-800 py-12 text-white">
+    <section id="faq" className="bg-gray-800 py-12 text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <h2 className="text-3xl font-extrabold text-gray-100 mb-4">Comprovantes de entrega</h2>
         <p className="mb-6 text-2xl text-indigo-600 font-semibold">Aqui você pode visualizar alguns comprovantes de entrega dos nossos serviços.</p>
